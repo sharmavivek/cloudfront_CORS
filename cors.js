@@ -9,7 +9,7 @@ exports.handler = (event, context, callback) => {
 
     headers['Access-Control-Allow-Origin'.toLowerCase()] = [{
         key: 'Access-Control-Allow-Origin',
-        value: 'https://my.domain.com',
+        value: '*',
     }];
 
     headers['Access-Control-Allow-Headers'.toLowerCase()] = [{
